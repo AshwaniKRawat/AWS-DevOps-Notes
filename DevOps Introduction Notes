@@ -1,0 +1,328 @@
+========================================
+Master Program On DevOps with AWS Cloud 
+========================================
+
+Pre-Requisites : No Prequisites
+
+Note: Programming Knowledge is not mandatory to attend this course.
+
+===============================
+DevOps with AWS - Course Outline
+===============================
+
+Module-1 : DevOps Introduction + SLDC
+
+Module-2 : Linux OS
+
+Module-3 : AWS Cloud
+
+Module-4 : DevOps Tools (10+ Tools)
+
+Module-5 : Projects Setup using DevOps practises
+
+Module-6 : Interview Guide
+
+########## Course Content : https://ashokitech.com/devops-with-aws-online-training #########
+
+===================
+Course Information
+====================
+
+Trainer : Mr. Ashok
+
+Duration : 4 Months (+ / - 10 days)
+
+Class Timings:  7:00 AM - 8:30 AM (IST) -- (Mon-Sat)
+
+Class Mode : Zoom - Online Training
+
+Note: Daily Class Notes (lifetime) + Class Recording will be provided (1 year)
+
+Course Fee : 16,000 INR (Live Classes + Backup Videos)
+
+===================
+Environment Setup
+===================
+
+System Requirements :   Laptop with 8 GB RAM
+
+AWS Cloud Account (Free Tier)
+
+For Class : 1:30 hour
+
+For Practise : 2 to 3 hours
+
+
+Note: After this course completion, you can attend interviews with 3 to 4 years of exp
+
+			( Doing & Learning Course )
+
+==========================
+What is DevOps & Why DevOps 
+==========================
+
+DevOps = Development + Operations
+
+
+=> DevOps is a culture
+
+=> DevOps is a process
+
+=> DevOps is set of practises
+
+=> DevOps is used to establish colloboratation between Development team & Operations team.
+
+
+Note: The main aim of DevOps is to deliver application to client quickly with high quality
+
+=> As a devops engineer we will automate application build + deployment process using DevOps tool chain.
+
+
+
+========================
+Roles Of Development Team
+========================
+
+1) Understand Requirements
+
+2) Analyze Requirements
+
+3) Designing
+
+4) Development / Coding
+
+5) Unit Testing
+
+6) Code Integration (Source Code Repository Server)
+
+=======================
+Roles of QA / Testing Team
+=======================
+
+1) Prepare Test Scenarios
+
+2) Prepare Test Cases
+
+3) Execute Test cases on the project
+
+4) Report Bugs
+
+5) Provide QA Approval
+
+========================
+Roles of Operations Team
+========================
+
+1) Setup Infrastructure ( Machines / Servers / Databases / Storage / Network / Backup )
+
+			( Terraform s/w we will use to setup infrastructure in cloud )
+
+
+2) Configuration management 
+
+			( Ansible s/w we will use to automate configuration management )
+
+
+3) Source Code Repository Management
+
+			( SVN / Git Hub / BitBucket we can use for Source Code Integration )
+
+
+4) Build the source code 
+
+				=> Take latest source code from repository
+
+				=> Compile the source code
+
+				=> Execute Unit Test cases of the project
+
+				=> Package the code as jar / war file
+				
+
+			( Maven / Gradle we can use to automate application build process )
+
+
+5) Perform Code Review & Generate Code Review Report
+
+				( SonarQube is used to perform Code Review & Generate Report  )
+
+
+6) Store Build Artifact into Artifact Repository Server ( Storing jar / war file for backup )
+
+			( Nexus / JFrog we can use as Artifact Repository Servers )
+				
+
+7) Deploy Project Artifact into Web Server (Keeping the project war file in server is called as Deployment)
+
+			( Apache Tomcat, JBoss, IIS )
+
+
+8) Automate Build & Deployment process for several environments (DEV, QA, UAT, PILOT, PRODUCTION)
+
+		(JENKINS / Bamboos / UDeploy CI CD Pipelines we will use to automate build + deployments)
+
+
+9) Execute the application in container - Containerization
+
+		( Docker is used to containerize the application )
+
+Note: Using Docker we can easily execute our application in any platform without bothering about underlying infrastructure.
+
+			Docker Container = Application  Code + Required Softwares
+
+10) Orchestrate Docker Container - Kubernetes (K8S) / Openshift
+
+Note: Orchestration means Management. K8S will manage Docker containers
+	 (creating / scale up / scale down / destroying)
+
+
+11) Monitor Infrastructure & Application
+
+			- Grafana
+			- Promethues
+			- ELK (Elastic Search + LogStash + Kibana)
+
+=====================================================================================
+
+=> DevOps practises will help us in Simplifying and Automating Application Build & Deployment Process
+
+=> DevOps tools we will use to automate Build & Deployment Process
+
+=======================================================
+DevOps Tools : To Automate Operations required for the Project
+=======================================================
+
+1) Maven / Gradle : Build Tools  ( Compile + Unit Test Execution + Package as jar / war )
+
+2) Git Hub / BitBucket : Source Code Repository Servers  (To integrate source code)
+
+3) SonarQube : Code Review Software (To identify developers mistakes in code)
+
+4) Nexus / JFrog : Artifactory Repository Servers (To store build artifacts - jars / wars)
+
+5) Apache Tomcat : WebServer (To execute our java web applications)
+
+6) Jenkins : Deployment Tool ( CI & CD )
+
+7) Terraform : Infrastructure creation tool (AWS / Azure / GCP)
+
+8) Ansible / Chef / Puppet : Configuration Management Software 
+
+9) Docker : Containerization Platform (  Run Application - Anywhere )
+
+10) Kubernetes (K8S) : Orchestration Platform  (To manage docker containers)
+
+11) Monitoring Tools
+
+			- Grafana
+			- Prometheus
+			- ELK Statck ( Elastic Search + Log Stash + Kibana)
+
+12) JIRA : Project Management Tool + Bug Reporting Tool
+
+===============
+What is Project ?
+===============
+
+=> Set of programs is called as Project
+
+====================
+Why we need Project ?
+====================
+
+=> Software projects are used to automate manual work
+
+=> Software Projects are used to reduce human efforts
+
+		Ex: Tickets Booking (www.irctc.com)
+
+			Money Transfer ( NetBanking, gpay, phonepay, paytm)
+
+================			
+Types of Projects 
+================
+
+1) Scratch Development Projects ( 15 % )
+
+2) Maintenence / Support Projects ( 75 % )
+
+			- Change Requests
+			- New Enhancements
+			- Bug Fixing
+
+3) Migration Projects ( 10 % )
+
+=====================================================
+How companies will develop and deliver projects to clients ?
+=====================================================
+
+=> Companies will follow a process to develop & deliver the project to client that is called as 
+   "Software Development Lifecycle" (SDLC).
+
+=> SDLC represents starting to ending process of project development & delivery process.
+
+=> We have several phases in Software Development Cycle
+
+		1) Requirements Collection
+
+		2) Requirements Analysis
+
+		3) Design
+
+		4) Development / Coding
+
+		5) Testing
+
+		6) Deployment
+
+		7) Deliver the project
+
+		8) Maintenence
+
+
+=> We have several SDLC methodologies in the market like
+
+				1) Waterfall
+
+				2) Agile
+
+
+====================
+Waterfall Methodology
+====================
+
+=> It is a linear model to develop and deliver the project
+
+=> Project Requirements are fixed
+
+=> Project Budget is fixed
+
+=> In waterfall model, after one step is completed then only we will go for next step
+
+=> Requirement changes in the middle are not accepted.
+
+=> Client involvement will be very less
+
+=> Client will see the project at the end.
+
+=> It is time taking process to deliver
+
+
+Note: If client did not like our delivery then time and money will be wasted.
+
+
+#########   To overcome the problems of waterfall model, we will use Agile Methodology #############
+
+=> Agile is the most famous SDLC methodology in the market today
+
+=> Agile is an iterative approach to develop and deliver the project to the client
+
+=>  Development + Testing + Deployment is a continuous process in Agile Methodology
+
+=> Client involvement will be very high in Agile methodology
+
+=> Instead of delivering entire project in one shot, we will delivery project sprint by sprint
+
+=> In Agile methodology Requirements and Budget is not fixed.
+
+Note: Agile is the most flexible methodology to develop and deliver project to clients.
